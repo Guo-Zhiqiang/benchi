@@ -1,0 +1,631 @@
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="format-detection" content="telephone=no" />
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="viewport" content="width=640,width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<title>智者,大成</title>
+<meta name="keywords" content="梅赛德斯-奔驰，奔驰，奔驰汽车 ">
+<meta name="description" content="欢迎浏览梅赛德斯-奔驰中国网站。在这里您可以浏览有关奔驰乘用车、AMG、商用汽车，梅赛德斯-奔驰的优质服务、最新消息及活动，一级方程式赛车的精彩信息以及职位招聘的相关信息。 ">
+<link href="http://www.mercedes-benz.com.cn/favicon.ico" rel="SHORTCUT ICON" />
+<link rel="stylesheet" type="text/css" href="css/basic.css">
+<link rel="stylesheet"  type="text/css" href="css/fullage.css">
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/submitinfo.js"></script>
+<script type="text/javascript" src="js/preloadjs.min.js"></script>
+<!-- <script type="text/javascript" src="js/preload.js"></script> -->
+
+
+<script>
+!(function(a,b,c,d,e,f){var g="",h=a.sessionStorage,i="__admaster_ta_param__",j="tmDataLayer"!==d?"&dl="+d:"";
+if(a[f]={},a[d]=a[d]||[],a[d].push({startTime:+new Date,event:"tm.js"}),h){var k=a.location.search,
+l=new RegExp("[?&]"+i+"=(.*?)(&|#|$)").exec(k)||[];l[1]&&h.setItem(i,l[1]),l=h.getItem(i),
+l&&(g="&p="+l+"&t="+ +new Date)}var m=b.createElement(c),n=b.getElementsByTagName(c)[0];m.src="//tag.cdnmaster.cn/tmjs/tm.js?id="+e+j+g,
+m.async=!0,n.parentNode.insertBefore(m,n)})(window,document,"script","tmDataLayer","TM-769197","admaster_tm");
+</script>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?94692665f1be701d2fbb8ddfe5436ff2";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script type="text/javascript">
+
+if(!isPC()){
+	window.location.href = '../mobile/index.html'
+}
+function isPC() {
+    var userAgentInfo = navigator.userAgent;
+    var Agents = ["Android", "iPhone",
+                "SymbianOS", "Windows Phone",
+                "iPad", "iPod"];
+    var flag = true;
+    for (var v = 0; v < Agents.length; v++) {
+        if (userAgentInfo.indexOf(Agents[v]) > 0) {
+            flag = false;
+            break;
+        }
+    }
+    return flag;
+}
+</script>
+</head>
+<body>
+	<div id="myPointer">
+		<div class="shang xian_no_1">
+			<img src="img/shang.png" alt="">
+		</div>
+		<div class="zhong">
+			<img src="img/zhong.png" alt="">
+		</div>
+		<div class="xia xian_no_2">
+			<img src="img/xia.png" alt="">
+		</div>
+		<div class="my_text">
+			<img src="img/p_text.png" alt="">
+		</div>
+	</div>
+	<!-- 主题部分1-->
+	<div class="main">
+		<div class="logoBox">
+			<img class="logo" src="img/logo.png">
+			<!-- <div class="logo_text"></div> -->
+		</div>
+<!-- 		<div class="copyRight"><a href="http://www.mercedes-benz.com.cn" target="_blank">奔驰官网</a>京ICP备09046804号</div>
+		<div id="footer">
+			<ul class="share">
+				<li><a href="javascript:;"id="weibo"><b><img src="img/share-sina.png"></b></a></li>
+				<li><a href="javascript:;" class="weixin"><b><img src="img/share-weixin.png"></b><img src="img/er.jpg" alt="" class="er_pic"></a></li>
+			</ul>	
+		</div> -->
+		<div id="sound" class="sound play">
+			<span class="s"></span>
+		</div>
+		<!-- <div class="right_btn">
+			<div class='btn'><a target="_blank" href="http://www.mercedes-benz.com.cn/content/china/mpc/mpc_china_website/zhng/home_mpc/passengercars/home/new_cars/models/e-class/v213_sedan.html#_int_passengercars:home:model-navi:v213_sedan" class='btn1'></a></div>
+			<div class='btn'><a href="javascript:void(0)" class='btn2'></a></div>
+			<div class='btn'><a href="javascript:void(0)" class='btn3'></a></div>
+			<div class='btn'>
+				<a href="javascript:void(0)" class='btn4' id="allVideos"></a>
+			</div>
+			<div class='btn'><a href="javascript:void(0)" class='btn5' id="carsPrice"></a></div>
+		</div> -->
+		<div class="right_btn">
+			<div class='btn'><a id="rightNavOnline" href="javascript:void(0);" class='btn1'><img src="./img/rightBtnIcon_1.png"></a></div>
+			<div class='btn'><a href="javascript:void(0)" class='btn2'><img src="./img/rightBtnIcon_2.png"></a></div>
+			<!-- <div class='btn'><a href="javascript:void(0)" class='btn6' id="rightPrice"><img src="./img/rightBtnIcon_6.png"></a></div> -->
+			<div class='btn'><a target="_blank" href="http://www.mercedes-benz.com.cn/content/china/mpc/mpc_china_website/zhng/home_mpc/passengercars/home/new_cars/models/e-class/v213_sedan.html#_int_passengercars:home:model-navi:v213_sedan" class='btn6'><img src="./img/rightBtnIcon_3.png"></a></div>
+			<div class='btn'>
+				<a href="javascript:void(0)" class='btn4' id="allVideos"><img src="./img/rightBtnIcon_4.png"></a>
+			</div>
+			<div class='btn'><a href="javascript:void(0)" class='btn3'><img src="./img/rightBtnIcon_5.png"></a></div>
+		</div>
+		<div class="box">
+			<div class="page page_1 section" altr='page_1'>
+				<div class="index_bg">
+					<div class="index_bg_1">
+						<!-- <img src="img/index_bg_1.png" alt="" class="myIndexPic"> -->
+						
+						<div class="text_pic">
+							<img src="img/hong_y.png" alt="" class="hong">
+							
+						</div>
+						<div class="text_pic_hong">
+							<img src="img/dot_zhuan.png" alt="" class="zhuan1">
+							<!-- <img src="img/index_zhuan2.png" alt="" class="zhuan2"> -->
+							<img src="img/dna_zhan.png" alt="" class="index_dna">
+						</div>
+<!-- 					<div class="text_pic2">
+						<img src="img/first_01.png" class='first_01' alt="">
+						<img src="img/first_02.png" class='first_02' alt="">
+						<img src="img/first_03.png" class='first_03' alt="">
+						<img src="img/first_04.png" class='first_04' alt="">
+						<img src="img/first_05.png" class='first_05' alt="">
+						<img src="img/first_06.png" class='first_06' alt="">
+						<img src="img/first_07.png" class='first_07' alt="">
+						<img src="img/first_08.png" class='first_08' alt="">
+					</div> -->
+					</div>
+					
+				</div>
+				
+				<div class="firstSecond firstSecondfirst">
+					<div class="leftGrey">
+						<p class="text_1"><img src="img/text_gray_title.png" alt=""></p>
+						<p class="text_2"><img src="img/text_red_title.png" alt=""></p>
+					</div>
+					<div class="rightRed">
+						<div class="myBox">
+							<!-- <img src="img/red_car_bg.png" alt=""> -->
+							<div class="imgBgWarp"></div>
+						</div>
+						<div class="jiaotou">
+							<img src="img/jiantou.png" alt="" class="xiao_jian">
+							<img src="img/zuojian.png" alt="" class="zuojian going">
+							<img src="img/youjian.png" alt="" class="youjian going2">
+						</div>
+					</div>
+					<div class="moveBox"></div>
+					<p class='text1 text_big_red'><img src="img/text_big_red.png" alt=""></p>
+					<p class='text2'><img src="img/text_big_gray.png" alt=""></p>
+				</div>
+			</div>
+			<!--一辆车的地方-->
+			<!-- <div class="page page_new_one section" altr='page_new_one'>
+				<div class="red">
+					<div class="text_pic">
+						<img src="img/car_inner_02.png" alt="">
+					</div>
+					<p class="text">
+						<img src="img/text_big_red.png" alt="" class="first_03">
+					</p>
+				</div>
+				<div class="gray">
+					<div class="text_pic">
+						<img src="img/gray_car.png" alt="">
+					</div>
+					<p class="text">
+						<img src="img/text_big_gray.png" alt="" class="first_03">
+					</p>
+				</div>
+			</div> -->
+
+			<div class="page page_new_2 section my_page_2" altr='page_new_2'>
+				<div class="red">
+					<p class="text_title">
+						<img src="img/a-car-5-01.png" alt="" class="first_01">	
+					</p>
+					<div class="pic_box0 pic_box0_0">
+						<img src="img/a_hong_1.png" alt="" class="text_00">
+					</div>
+					<div class="pic_box">
+						<img src="img/a_hong_2.png" alt="" class="text_01">
+					</div>
+					<div class="pic_box2_red flyCar1">
+						<img src="img/a_hong_3.png" alt="" class="text_01">
+						<!-- <img src="img/guang.png" alt="" id="guang1" class="zou1">
+						<img src="img/guang.png" alt="" id="guang2" class="zou2"> -->
+					</div>
+					<p class="text text_2_red">
+						<img src="img/a_hong_text.png" alt="" class="first_03">
+					</p>
+					<!-- <div class="pic_box">
+						<a href="javascript:void(0);" class='btn redcarw' address="./mov/Benz_INTELIGENT.mp4" text_str="Benz_INTELIGENT"><img src="img/voide_pic1.png" alt="" class="pin"></a>
+					</div> -->
+				</div>
+				<div class="gray">
+					<p class='text_title'>
+						<img src="img/a-car-5-01.png" alt="">	
+					</p>
+					<div class="pic_box_1">
+						<img src="img/car_inner0.png" alt="" class="car_logo_03">
+					</div>
+					<div class="pic_box1">
+						<img src="img/car_inner.jpg" alt="" class="car_logo_03">
+					</div>
+					<p class="text"><img src="img/smsj.png" alt=""></p>
+				</div>
+			</div>
+			<!-- DINAMICA微纤维运动座椅&Nappa皮饰多功能运动型方向盘 -->
+			<div class="page page_new_22 section" altr='page_new_22'>
+				<div class="gray">
+					<p class="text_title">
+						<img src="img/a-car-5-01.png" alt="" class="first_01">	
+					</p>
+					<div class="text_pic">
+						<img src="img/xiao_1.png" class='text_01' alt="">
+					</div>
+					<div class="text_pic2">
+						<img src="img/tu.jpg" alt="" class="first_01">
+					</div>
+					<p class="text text_1">
+						<img src="img/shizu.png" alt="" class="first_03">
+					</p>
+					<div class="pic_box pic_box_64">
+						<!-- <a href="javascript:void(0);" class='btn' address="./mov/64colour.mp4" text_str="64colour"><img src="img/voide_pic1.png" alt=""></a> -->
+					</div>
+				</div>
+				<div class="red">
+					<p class="text_title">
+						<img src="img/a-car-5-01.png" alt="" class="first_01">	
+					</p>
+					<div class="pic_box0">
+						<img src="img/red4_1.png" alt="" class="text_00">
+					</div>
+					<div class="pic_box pic_red22">
+						<img src="img/red4_2.png" alt="" class="text_01 bian">
+					</div>
+					<div class="pic_box2">
+						<img src="img/red4_4.png" alt="" class="text_01">
+					</div>
+					<div class="pic_box3">
+						<img src="img/red4_3.png" alt="" class="text_01">
+					</div>
+					<p class="text">
+						<img src="img/red4_text.png" alt="" class="first_03">
+					</p>
+					<!-- <p class="text text_new_add">
+						<img src="img/red4_1_text.png" alt="" class="first_03">
+					</p> -->
+				</div>
+			</div>
+			<!-- 2.1.3 Burmester® 高端3D环绕立体声音响系统&车内空气调节组件 -->
+			<div class="page page_new_2 section" altr='page_new_2'>
+
+				<div class="gray gray2">
+					<p class="text_title">
+						<img src="img/a-car-5-01.png" alt="" class="first_01">	
+					</p>
+					<div class="pic_box0">
+						<img src="img/3d_1.png" alt="" class="text_00">
+					</div>
+					<div class="pic_box">
+						<img src="img/3d_2.png" alt="" class="text_01">
+					</div>
+					<div class="pic_box2 pic_box2_san">
+						<img src="img/3d_3.jpg" alt="" class="text_01">
+					</div>
+					<p class="text">
+						<img src="img/3d_text.png" alt="" class="first_03">
+					</p>
+					<div class="pic_box_3d">
+						<!-- <a href="javascript:void(0);" class='btn' address="./mov/burmester.mp4" text_str="burmester"><img src="img/voide_pic1.png" alt=""></a> -->
+					</div>
+				</div>
+				<div class="red">
+					<p class='text_title'>
+						<img src="img/car-title-2.png" alt="">	
+					</p>
+					<div class="pic_box4">
+						<img src="img/red4_qu1.png" alt="" class="car_logo_03">
+					</div>
+					<div class="pic_box1 pic_b_qie">
+						<img src="img/red4_qu2.png" alt="" class="car_logo_03">
+					</div>
+					<p class="text text_qie"><img src="img/4qu_text.png" alt=""></p>
+				</div>
+			</div>
+			<!-- 几何多光束LED大灯-->
+ 			<div class="page page_new_3 section" altr='page_new_3'>
+ 				<div class="gray">
+ 					<p class="text_title">
+						<img src="img/a-car-5-01.png" alt="" class="first_01">	
+					</p>
+					<div class="pic_box0">
+						<img src="img/page_022.png" alt="" class="text_00">
+					</div>
+					<div class="pic_box">
+						<img src="img/ledLignt-1.png" alt="" class="text_01 ledLignt-1">
+						<img src="img/ledLignt-2.png" alt="" class="text_01 ledLignt-2">
+						<img src="img/ledLignt-3.png" alt="" class="text_01 ledLignt-3">
+						<img src="img/ledLignt-4.png" alt="" class="text_01 ledLignt-4">
+					</div>
+					<p class="text">
+						<img src="img/text_1.png" alt="" class="first_03">
+					</p>
+					<div class="pic_box_dd">
+						<a href="javascript:void(0);" class='btn' address="./mov/Benz_INTELIGENT.mp4" text_str="Benz_INTELIGENT"><img src="img/voide_pic1.png" alt=""></a>
+					</div>
+ 				</div>
+				<div class="red">
+					<p class='text_title'>
+						<img src="img/c-title.png" alt="">	
+					</p>
+					<div class="pic_box4">
+						<img src="img/hl_1.png" alt="" class="car_logo_03">
+					</div>
+					<div class="pic_box1">
+						<img src="img/hl_2.png" alt="" class="car_logo_03">
+					</div>
+					<p class="text"><img src="img/hl_text.png" alt=""></p>
+					<!-- <div class="pic_box">
+						<a href="javascript:void(0);" class='btn' address="./mov/Benz_PREDICT.mp4" text_str="Benz_PREDICT"><img src="img/voide_pic1.png" alt=""></a>
+					</div> -->
+				</div>
+			</div>
+			<!-- 2.2.1 4MATIC全时四驱系统  -->
+			<!-- <div class="page page_9 section" altr='page_9'>
+				<div class="page_9_two">
+					<p class='text_title'>
+						<img src="img/a-car-5-01.png" alt="">	
+					</p>
+					<div class="pic_box">
+						<img src="img/car_inner0.png" alt="" class="car_logo_03">
+					</div>
+					<div class="pic_box1">
+						<img src="img/car_inner.jpg" alt="" class="car_logo_03">
+					</div>
+					<p class="text"><img src="img/text_8.png" alt=""></p>
+				</div>
+			</div> -->
+			<div class="page page_9 section page_r_c" altr='page_9'  hasback='page_new_9'>
+				<div class="page_9_three gray">
+					<p class='text_title'>
+						<img src="img/car-title-2.png" alt="">	
+					</p>
+					<div class="text_pic0">
+						<img src="img/4qu_1.png" class='text_01 i' alt="">
+					</div>
+					<div class="text_pic2">
+						<img src="img/4qu_2.png" alt="" class="first_01 i">
+						<!-- <a href="javascript:void(0);" class='btn' address="./mov/Intelligent.mp4" text_str="Intelligent"><img src="img/voide_pic.png" alt=""></a> -->
+					</div>
+					<p class="text">
+						<img src="img/4qu_text.png" alt="" class="first_03">
+					</p>
+				</div>
+				<div class="red">
+					<div class="last_title1"><img src="img/last_red_title.png" alt=""  ></div>
+					<div class="car"><img src="img/last_red_car.png" alt=""></div>
+				<!-- <div class="car2"><img src="img/last_car2.png" alt=""></div> -->
+					<div class="last1_text">
+						<img src="img/last_car_text.png" alt="">
+					</div>
+<!-- 					<div class="last_btn">
+						<a href="javascript:void(0);" id="form_btn_red" class="last_btn_01 btn_click"><img src="img/btn_01.png" alt=""></a>
+						<a href="javascript:void(0);" id="price_obj_red" class="last_btn_04 btn_click"><img src="img/btn_04.png" alt=""></a>
+						<a href="javascript:void(0);" id="shiping_red" class="last_btn_03 btn_click" ><img src="img/btn_03.png" alt=""></a>
+						<a href="javascript:void(0);" id="online_car_red" class="btn_click" ><img src="img/btn_05.png" alt=""></a>
+
+					</div> -->
+					<!-- <div class="last_flooer"><img src="img/flooer.png" alt=""></div> -->
+				</div>
+			</div>
+			<!-- 2.1.3高端3D环绕立体声音响系统&车内空气调节组件 -->
+			<!-- <div class="page page_new_2 section" altr='page_new_2'>
+				<p class="text_title">
+					<img src="img/a-car-5-01.png" alt="" class="first_01">	
+				</p>
+				<div class="pic_box0">
+					<img src="img/led.png" alt="" class="text_00">
+				</div>
+				<div class="pic_box">
+					<img src="img/car_inner_02.png" alt="" class="text_01">
+				</div>
+				<div class="pic_box2">
+					<img src="img/car_inner_02.png" alt="" class="text_01">
+				</div>
+				<p class="text">
+					<img src="img/text_10.png" alt="" class="first_03">
+				</p>
+			</div> -->
+
+			<!-- 上面是设计的智能 -->
+			<!-- 驾驶的智能 -->
+
+			<!-- 智能驾驶辅助组件增强版 -->
+			<div class="page page_6 section" altr='page_6'>
+				<p class='text_title'><img src="img/car-title-2.png" alt=""></p>
+				<div class="leida_car_move">
+					<div class="lei_car_inner">
+						<img src="img/leida_1.png" class="leida_1 _thisleidaImg">
+						<img src="img/leida_2.png" class="leida_2 _thisleidaImg">
+						<img src="img/leida_2.png" class="leida_2_1 _thisleidaImg">
+						<img src="img/leida_3.png" class="leida_3_1 _thisleidaImg">
+						<img src="img/leida_3.png" class="leida_3_2 _thisleidaImg">
+						<img src="img/leida_4.png" class="leida_4 _thisleidaImg">
+					</div>
+					<!-- <a href="javascript:void(0);" class='btn2' address="./mov/Distracted.mp4" text_str="Distracted"><img src="img/voide_pic.png" alt=""></a> -->
+				</div>
+				<p class="text"><img src="img/jiaoshi_tex.png" alt=""></p>
+				<div class="pic_box_double">
+					<a href="javascript:void(0);" class='btn' address="./mov/Impact.mp4" text_str="Impact"><img src="img/p6-viedo-2.png" alt=""></a>
+					<a href="javascript:void(0);" class='btn2' address="./mov/Distracted.mp4" text_str="Distracted"><img src="img/p6-viedo-1.png" alt=""></a>
+				</div>
+			</div>
+			
+			<div class="page page_4 section" altr='page_4'>
+				<p class='text_title'>
+					<img src="img/car-title-2.png" alt="">	
+				</p>
+				<div class="pic_box pic_box_me">
+					<img src="img/page_04.png" alt="" class="pic_01">
+					<!-- <a href="javascript:void(0);" class='btn' address="./mov/remote.mp4" text_str="remote"><img src="img/voide_pic1.png" alt=""></a> -->
+				</div>
+				<p class="text">
+					<a href="https://me.mercedes.cn/zh-cn/" target='_blank'><img src="img/link_btn1.png" alt=""></a>
+					<img src="img/text_3.png" alt="">
+				</p>
+			</div>
+			<!--下面是互联的智能-->
+			<div class="page page_4_hl section" altr='page_4_hl'>
+				<p class='text_title'>
+					<img src="img/c-title.png" alt="">	
+				</p>
+				<div class="pic_box_1">
+						<img src="img/hl_1.png" alt="" class="car_logo_03">
+					</div>
+					<div class="pic_box1">
+						<img src="img/hl_2.png" alt="" class="car_logo_03">
+					</div>
+				<p class="text">
+					<img src="img/hl_text.png" alt="">
+				</p>
+				<!-- <div class="pic_box">
+					<a href="javascript:void(0);" class='btn redcarw' address="./mov/Benz_PREDICT.mp4" text_str="Benz_PREDICT"><img src="img/voide_pic1.png" alt="" class="pin"></a>
+				</div> -->
+			</div>
+			<!-- 最后一屏 -->
+			<div class="page page_8 section" altr='page_8' hasback='page_old_8'>
+				<div class="last_title"><!-- <img src="img/white_zhi.png" alt=""  > --></div>
+				<div class="last_title1"><img src="img/last_gray_title.png" alt=""  ></div>
+				<div class="car"><img src="img/last_gray.png" alt=""></div>
+				<!-- <div class="car2"><img src="img/last_car2.png" alt=""></div> -->
+				<div class="last1_text">
+					<img src="img/last_car_text.png" alt="">
+				</div>
+<!-- 				<div class="last_btn">
+					<a href="javascript:void(0);" id="form_btn" class="last_btn_01 btn_click"><img src="img/btn_01.png" alt=""></a>
+					<a href="javascript:void(0);" id="price_obj" class="last_btn_04 btn_click"><img src="img/btn_04.png" alt=""></a>
+					<a href="javascript:void(0);" id="shiping" class="last_btn_03 btn_click" ><img src="img/btn_03.png" alt=""></a>
+					<a href="javascript:void(0);" id="online_car" class=" btn_click" ><img src="img/btn_05.png" alt=""></a>
+				</div> -->
+				<div class="last_flooer"><img src="img/flooer.png" alt=""></div>
+			</div>
+
+		</div>
+	</div>
+	<div class="yichu" style="display: none;"></div>
+	<!-- 声音 -->
+	<div class="video">
+		<a href="javascript:void(0);" class="close"></a>
+		<div class="voide_warp">
+			敬请期待!
+		</div>
+		<div class="video_box">
+			<video src="" controls autobuffer></video>
+		</div>
+	</div>
+	<div class="mask"></div>
+	<!-- 表单 -->
+<!-- 
+	<div class="tijiao_success">
+		<div class="text">您的信息已提交，我们将会与前1000名注册用户联系VR眼镜发放事宜。全新梅赛德斯-奔驰长轴距E级车预售即将开启。更多详情，敬请莅临梅赛德斯-奔驰当地授权经销商，或致电400-810-8880。</div>
+		<div class="tijiao_success_btn"><a href="javascript:void(0);" class='btn'>知道了</a></div>
+	</div> -->
+
+    <div class="form">
+    	<div class="close"><img src="img/close.png" alt=""></div>
+    	<h2><img src="img/form_title.png" alt=""></h2>
+        <ul>
+            <li>
+              <span class='text'><img src="img/form_name.png" alt=""></span><input type="text" id="username" maxlength="10" placeholder="" />
+            </li>
+            <li class="sex">
+            	<span class='text'><img src="img/form_sex.png" alt=""></span><span class="text_sex selected" value="男" tag="男"><img src="img/form_boy.png" alt=""></span><span class="text_sex" value="女" tag="女"><img src="img/form_girl.png" alt=""></span>
+            </li>
+            <li><span class='text'><img src="img/form_pho.png" alt=""></span><input id="phone" type="text" maxlength="11" validate="mobile"  onkeyup="this.value=this.value.replace(/[^\d.]/g,'')" /></li>
+            <li class="address">         	
+            	<span class='text'><img src="img/form_sheng.png" alt=""></span><select name="dealerprovince" id="proname" >
+            		 <option value="">请选择</option>
+                    <option value="北京">北京</option>
+                    <option value="福建">福建</option>
+                    <option value="甘肃">甘肃</option>
+                    <option value="广东">广东</option>
+                    <option value="广西">广西</option>
+                    <option value="贵州">贵州</option>
+                    <option value="海南">海南</option>
+                    <option value="河北">河北</option>
+                    <option value="河南">河南</option>
+                    <option value="黑龙江">黑龙江</option>
+                    <option value="湖北">湖北</option>
+                    <option value="湖南">湖南</option>
+                    <option value="吉林">吉林</option>
+                    <option value="江西">江西</option>
+                    <option value="辽宁">辽宁</option>
+                    <option value="内蒙古">内蒙古</option>
+                    <option value="宁夏">宁夏</option>
+                    <option value="青海">青海</option>
+                    <option value="山东">山东</option>
+                    <option value="山西">山西</option>
+                    <option value="陕西">陕西</option>
+                    <option value="四川">四川</option>
+                    <option value="天津">天津</option>
+                    <option value="西藏">西藏</option>
+                    <option value="新疆">新疆</option>
+                    <option value="云南">云南</option>
+                    <option value="重庆">重庆</option>
+                    <option value="江苏">江苏</option>
+                    <option value="上海">上海</option>
+                    <option value="安徽">安徽</option>
+                    <option value="浙江">浙江</option>
+                </select>
+                <span class='text' style="width:50px;text-align: center;"><img src="img/form_city.png" alt="" style='width:36px;'></span><select name="dealercity" id="cityname">
+                    <option value="">请选择</option>
+                </select>
+            </li>
+            <li>
+            	<span class='text'><img src="img/form_jin.png" alt=""></span><select name="dealer" id="dealername" style="width:232px;">
+                    <option value="">请选择</option>
+                </select>
+            </li>
+	<!-- 		 <li>
+			 	<span class='text' ><img src="img/form_email.png" alt=""></span><input type="text" id="send_address" movlength="50" placeholder="">
+            </li> -->
+        </ul>
+       	<p class="p"><span class="text"><img src="img/form_tiao.png" alt=""></span> <span class="clause" abc='status'></span><a href="http://www.mercedes-benz.com.cn/content/china/mpc/mpc_china_website/zhng/home_mpc/orivacy_statement.ngrb.html#_int_passengercars:home:footer:orivacy_statement" target='_blank' class='check_yin'><img src="img/form_yinsi.png" style="width:72px;" alt=""></a></p>
+        <div class="btn_tj"><a href="javascript:;" class="btn sub" onClick="tijiaoinfo()"><img src="img/form_tj.png" alt="" ></a> </div>
+    </div>
+
+    <div class="price">
+    	<div class="close"><img src="img/close.png" alt=""></div>
+    	<img src="img/price_img.png" alt="" class='price_img'>
+    </div>
+
+    <div class="online_car_tip">
+    	<div class="close"><img src="img/close.png" alt=""></div>
+    	<!-- <img src="img/online.png" alt="" class='price_img'> -->
+    </div>
+
+	  <div class="newVideo">
+	  	<div class="close">
+	  		<img src="img/close.png" alt="">
+	  	</div>
+	  	<div class="bgCar clearfix">
+	  		<!-- <a href="javascript:void(0)" class="video_img fl" address="./mov/remote.mp4" text_str="remote">
+	  			    		<img src="img/s1.png" alt="">
+	  			    	</a>
+	  			    	<a href="javascript:void(0)" class="video_img fl" address="./mov/64colour.mp4" text_str="64colour">
+	  			    		<img src="img/s2.png" alt="">
+	  			    	</a>
+	  			    	<a href="javascript:void(0)" class="video_img fl" address="./mov/burmester.mp4" text_str="burmester">
+	  			    		<img src="img/s3.png" alt="">
+	  			    	</a>
+	  			    	<a href="javascript:void(0)" class="video_img fl" address="./mov/LED.mp4" text_str="LED">
+	  			    		<img src="img/s4.png" alt="">
+	  			    	</a> -->
+	    	<a href="javascript:void(0)" class="video_img fl" address="./mov/Distracted.mp4" text_str="Distracted">
+	    		<img src="img/s5.png" alt="">
+	    	</a>
+	    	<a href="javascript:void(0)" class="video_img fl" address="./mov/Impact.mp4" text_str="Impact">
+	    		<img src="img/s6.png" alt="">
+	    	</a>
+	    	<a href="javascript:void(0)" class="video_img fl" address="./mov/Benz_INTELIGENT.mp4" text_str="Benz_INTELIGENT">
+	    		<img src="img/s7.png" alt="">
+	    	</a>
+	    	<!-- <a href="javascript:void(0)" class="video_img fl" address="./mov/Intelligent_Drive.mp4" text_str="Intelligent_Drive">
+	    		<img src="img/s8.png" alt="">
+	    	</a> -->
+	  <!--   	<a href="javascript:void(0)" class="video_img fl" address="./mov/Benz_PREDICT.mp4" text_str="Benz_PREDICT">
+	    		<img src="img/s9.png" alt="">
+	    	</a> -->
+	    	<a href="javascript:void(0)" class="video_img fl" address="./mov/Benz_E-Class.mp4" text_str="Benz_E-Class">
+	    		<img src="img/s10.png" alt="">
+	    	</a>
+	    	<!-- <a href="javascript:void(0)" class="video_img fl" address="./mov/vr.mp4" text_str="vr">
+	    		<img src="img/s11.png" alt="">
+	    	</a> -->
+	  	</div>
+    	
+    </div>
+
+    <div class="newVideo2 clearfix">
+    	<div class="close">
+    		<img src="img/close.png" alt="">
+    	</div>
+    	<a href="javascript:void(0)" class="video_img fl" address="./mov/LED.mp4" text_str="LED">
+    		<img src="img/p1.png" alt="">
+    	</a>
+    	<a href="javascript:void(0)" class="video_img fl" address="./mov/Intelligent_Drive.mp4" text_str="Intelligent_Drive">
+    		<img src="img/p2.png" alt="">
+    	</a>
+    	<a href="javascript:void(0)" class="video_img fl" address="./mov/vr.mp4" text_str="vr">
+    		<img src="img/p3.png" alt="">
+    	</a>
+    	<a href="javascript:void(0)" class="video_img fl" address="./mov/vonderful_video.mp4" text_str="vonderful_video">
+    		<img src="img/p4.png" alt="">
+    	</a>
+    </div>
+	<div class="mask2"></div>
+	<div class="mask_v"></div>
+
+</body>
+</html>
